@@ -2,3 +2,7 @@ baseURL = 'https://awrreny.github.io/'
 languageCode = 'en-gb'
 title = 'Blog'
 theme = 'ananke'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
