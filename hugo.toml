@@ -1,8 +1,11 @@
 baseURL = 'https://awrreny.github.io/'
 languageCode = 'en-gb'
-title = 'Blog'
-theme = 'ananke'
+title = 'awr-blog'
+theme = 'paper'
 
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[params]
+math = true
