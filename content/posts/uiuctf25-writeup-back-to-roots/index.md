@@ -114,19 +114,19 @@ print(K)
 
 ---
 
-### Solution 3 - Alternatice LLL approach
+### Solution 3 - Alternative LLL approach
 
 This approach doesn't require knowledge of algebraic number theory, but is a more direct application of LLL.
 
-As described in solution 1, we have $2fl+l^2$ is an integer (up to 22 digits precision) with $l = 0.433628...$ and integer $f$ where $(f+l)^2 = K$ (up to 22 digits precision)
+As described in solution 1, we know that $2fl+l^2$ is an integer (up to 22 digits precision) with $l = 0.433628...$ and integer $f$ where $(f+l)^2 = K$ (up to 22 digits precision)
 
-Let's define:
+For convenience, let's define:
 
 -   $h = 2fl + l^2$
 -   $a = 2l$
 -   $b=l^2$
 
-This transforms our problem into a linear equation: $af + b = h$ ($f$, $h$ unknown integers, $a$, $b$ known non-integers)
+Now it is clearer that this is a linear equation: $af + b = h$ ($f$, $h$ unknown integers, $a$, $b$ known non-integers)
 
 We can rewrite this as an integer linear combination so that it can be solved with LLL: $$af + bg + (-1)h = 0$$ Then by multiplying by $10^{22}$, rounding and writing as vectors, we get this:
 
