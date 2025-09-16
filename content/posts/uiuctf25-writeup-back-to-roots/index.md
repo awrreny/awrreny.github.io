@@ -8,6 +8,8 @@ title = 'uiuctf25 writeup: Back to Roots'
 
 writeup for the CTF challenge "Back to Roots" from uiuctf25
 
+16/9 update: this writeup won in the CTF's [writeup competition](https://github.com/sigpwny/UIUCTF-2025-Public/blob/main/WRITEUPS.md), winning a \$60 prize!
+
 ### Setup
 
 -   A 10-digit number $K$ is generated.
